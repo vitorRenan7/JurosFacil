@@ -1,0 +1,7 @@
+{
+  "name": "JurosFacil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
