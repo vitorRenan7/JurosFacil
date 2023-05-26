@@ -1,0 +1,51 @@
+#body{
+    width: 100%;
+    height: 100%;
+
+    background-color: #6CBEED;
+
+    .jurosSimples{
+        position: relative;
+
+        width:  80%;
+        height: 80%;
+
+        left: 9vh;
+        top:  2.5vh;
+
+        color: #6CBEED;
+        
+        h1{
+            font-size: 5vh;
+        }
+    }
+}
+
+.custom-shape-divider-top-1685079151 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1685079151 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1685079151 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1685079151 svg {
+        width: calc(122% + 1.3px);
+        height: 135px;
+    }
+}
