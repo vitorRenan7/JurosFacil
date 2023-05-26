@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'juros-simples',
+    loadChildren: () => import('./juros-simples/juros-simples.module').then( m => m.JurosSimplesPageModule)
+  },
 ];
 
 @NgModule({
