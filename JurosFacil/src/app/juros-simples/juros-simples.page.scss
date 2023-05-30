@@ -4,6 +4,10 @@
 
     background-color: #6CBEED;
 
+    display: flex;
+    flex-direction: column;
+
+
     .jurosSimples{
         position: relative;
 
@@ -17,6 +21,48 @@
         
         h1{
             font-size: 5vh;
+        }
+    }
+
+
+    .campoJurosSimples{
+        position: relative;
+
+        left:   3vh;
+        bottom: 10vh;
+
+        height: 150vh;
+        width:  50vh;
+
+        background-color: red;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        
+        gap: 25px;
+
+        .campo{
+
+            background-color: green;
+            width:  40vh;
+            height: 13vh;
+
+
+            label{
+                color: #000;
+
+                font-weight: bold;
+                font-size: 20px;
+              }
+
+            input{
+                margin-top:  2vh;
+                margin-left: 4.5vh;
+                height: 5vh;
+            }
         }
     }
 }
